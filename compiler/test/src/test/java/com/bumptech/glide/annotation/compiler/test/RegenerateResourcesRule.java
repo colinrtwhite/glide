@@ -19,7 +19,7 @@ import org.junit.runners.model.Statement;
  *
  * <p>This can easily be used via gradle by running:
  * {@code
- *  ./gradlew :annotation:compiler:test:regenerateTestResources
+ *  ./gradlew :compiler:test:regenerateTestResources
  * }
  *
  * <p>Our regenerate task will set the appropriate environment variables that will allow the logic

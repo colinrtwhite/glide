@@ -5,7 +5,7 @@ dependencies {
     implementation(project(':integration:recyclerview')) {
         transitive = false
     }
-    annotationProcessor project(':annotation:compiler')
+    annotationProcessor project(':compiler')
 
     implementation "com.android.support:appcompat-v7:${ANDROID_SUPPORT_VERSION}"
     implementation "com.android.volley:volley:${VOLLEY_VERSION}"

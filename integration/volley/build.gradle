@@ -4,7 +4,7 @@ dependencies {
     implementation project(':library')
     api "com.android.volley:volley:${VOLLEY_VERSION}"
     api "com.android.support:support-annotations:${ANDROID_SUPPORT_VERSION}"
-    annotationProcessor project(':annotation:compiler')
+    annotationProcessor project(':compiler')
 
     testImplementation project(":testutil")
     testImplementation "com.google.truth:truth:${TRUTH_VERSION}"

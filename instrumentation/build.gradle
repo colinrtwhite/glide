@@ -12,7 +12,7 @@ dependencies {
     implementation ("com.android.support:appcompat-v7:${ANDROID_SUPPORT_VERSION}") {
         exclude group: 'android.arch.core'
     }
-    annotationProcessor project(":annotation:compiler")
+    annotationProcessor project(":compiler")
     implementation project(":library")
 
     androidTestImplementation project(':library')

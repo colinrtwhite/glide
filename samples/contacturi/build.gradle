@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 dependencies {
     implementation project(':library')
     implementation "com.android.support:appcompat-v7:${ANDROID_SUPPORT_VERSION}"
-    annotationProcessor project(':annotation:compiler')
+    annotationProcessor project(':compiler')
 }
 
 android {
